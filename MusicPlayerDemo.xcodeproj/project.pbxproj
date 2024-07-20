@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7947B7762C4BF54C0089C9B5 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7947B7752C4BF54C0089C9B5 /* SignInView.swift */; };
+		7947B7782C4C0C840089C9B5 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7947B7772C4C0C840089C9B5 /* SignInViewModel.swift */; };
 		79AC14CB2C00F5CB008DF408 /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AC14CA2C00F5CB008DF408 /* AuthResponse.swift */; };
 		79BA05F32BFD3ABC0007F54F /* MusicPlayerDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BA05F22BFD3ABC0007F54F /* MusicPlayerDemoApp.swift */; };
 		79BA05F52BFD3ABC0007F54F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BA05F42BFD3ABC0007F54F /* ContentView.swift */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7947B7752C4BF54C0089C9B5 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		7947B7772C4C0C840089C9B5 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
 		79AC14CA2C00F5CB008DF408 /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
 		79BA05EF2BFD3ABC0007F54F /* MusicPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79BA05F22BFD3ABC0007F54F /* MusicPlayerDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerDemoApp.swift; sourceTree = "<group>"; };
@@ -198,6 +202,8 @@
 		79BA06172BFD3C990007F54F /* SignIn */ = {
 			isa = PBXGroup;
 			children = (
+				7947B7752C4BF54C0089C9B5 /* SignInView.swift */,
+				7947B7772C4C0C840089C9B5 /* SignInViewModel.swift */,
 			);
 			path = SignIn;
 			sourceTree = "<group>";
@@ -276,9 +282,11 @@
 				79BA06122BFD3C060007F54F /* NetworkError.swift in Sources */,
 				79BA05F52BFD3ABC0007F54F /* ContentView.swift in Sources */,
 				79BA060A2BFD3BBE0007F54F /* AuthManager.swift in Sources */,
+				7947B7762C4BF54C0089C9B5 /* SignInView.swift in Sources */,
 				79F91EE92C0B68A200D9E9E7 /* KeychainWrapper.swift in Sources */,
 				79BA060C2BFD3BC70007F54F /* NetworkManager.swift in Sources */,
 				79BA06082BFD3B860007F54F /* MockData+Previews.swift in Sources */,
+				7947B7782C4C0C840089C9B5 /* SignInViewModel.swift in Sources */,
 				79AC14CB2C00F5CB008DF408 /* AuthResponse.swift in Sources */,
 				79BA05F32BFD3ABC0007F54F /* MusicPlayerDemoApp.swift in Sources */,
 			);

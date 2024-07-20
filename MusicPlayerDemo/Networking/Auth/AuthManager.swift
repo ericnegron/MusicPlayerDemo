@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import MusicKit
 
 @MainActor
 class AuthManager {
@@ -24,8 +25,12 @@ class AuthManager {
         return URL(string: urlString)
     }
     
-    public var isSignedIn: Bool {
+    public var isSignedInSpotify: Bool {
         return accessToken != nil
+    }
+    
+    public var isSignedInApple: Bool {
+        return false  // TODO: implement this
     }
     
     // MARK: - Private

@@ -12,11 +12,21 @@ import MusicKit
 struct MusicPlayerDemoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .task {
-                    let authStatus = await MusicAuthorization.request()
-                    print(authStatus)
-                }
+            
+            // TODO:  need to handle sign in for spotify vs apple
+            
+            if AuthManager.shared.isSignedInSpotify {
+                // TODO: go to main tab
+            } else {
+                SignInView()
+            }
+            
+            
+//            ContentView()
+//                .task {
+//                    let authStatus = await MusicAuthorization.request()
+//                    print(authStatus)
+//                }
         }
     }
 }
